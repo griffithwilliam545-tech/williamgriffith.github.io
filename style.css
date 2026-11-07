@@ -53,6 +53,15 @@ a {
   color: #1463b8;
 }
 
+.map-preview {
+  display: block;
+  width: 100%;
+  height: clamp(320px, 65vh, 700px);
+  border: 1px solid #dce1e7;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
 footer {
   text-align: center;
   padding: 25px;
